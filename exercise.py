@@ -1,19 +1,17 @@
-class Numbers:
-    def __init__(self, num1, num2):
-        self.num1 = num1
-        self.num2 = num2
+class Counter:
+    def __init__(self):
+        self.counter = 0
+    def increase(self):
+        self.counter += 1
+        return self.counter
+    def decrease(self):
+        self.counter -= 1
+        return self.counter
     def print_info(self):
-        print("Первое число: ", self.num1)
-        print("Второе число: ", self.num2)
-    def sum_even(self):
-        summ = self.num1 + self.num2
-        print("Сумма чисел: ", summ)
-    def maximum_num(self):
-        max_num = max(self.num1, self.num2)
-        print("Наибольшее число: ", max_num)
-        if self.num1 == self.num2:
-            print("Числа равны")
-numbers = Numbers(5, 2)
-numbers.print_info()
-numbers.sum_even()
-numbers.maximum_num()
+        return self.counter
+counter_now = Counter()
+counter_now.increase()
+print("Значение счетчика после увеличения: ", counter_now.print_info())
+counter_now.decrease()
+print("Значение счетчика после уменьшения: ", counter_now.print_info())
+print("Состояние счетчика: ", counter_now.print_info())
