@@ -1,20 +1,17 @@
-class Worker:
-    def __init__(self, name, surname, rate, days):
-        self.__name = name
-        self.__surname = surname
-        self.__rate = rate
-        self.__days = days
-    def GetName(self):
-        return self.__name
-    def GetSurname(self):
-        return self.__surname
-    def GetRate(self):
-        return self.__rate
-    def GetDays(self):
-        return self.__days
-    def GetSalary(self):
-        salary = self.__rate * self.__days
-        print("Зарплата работника: ", salary)
-        return salary
-worker = Worker("Иван", "Иванов", 1000, 15)
-worker.GetSalary()
+class Calculation:
+    def __init__(self):
+        self.calculationLine = " "
+    def SetCalculationLine(self):
+        input_line = input("Введите новую строку: ")
+        self.calculationLine = input_line
+    def SetLastSymbolCalculationLine(self):
+        symbol = input("Введите символ: ")
+        self.calculationLine += symbol
+    def GetCalculationLine(self):
+        print("Строка:", self.calculationLine)
+    def GetLastSymbol(self):
+        print(self.calculationLine[-1])
+    def DeleteLastSymbol(self):
+        print(self.calculationLine[:-1])
+
+
