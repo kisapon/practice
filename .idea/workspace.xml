@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4702c1a-9c8a-4fbd-9a66-87efb02edcad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +34,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.,jnbbb.executor": "Run",
+    "Python.bot1.executor": "Run",
     "Python.bottt.executor": "Run",
+    "Python.botyara.executor": "Run",
     "Python.code (1).executor": "Run",
+    "Python.code (10).executor": "Run",
+    "Python.code (11).executor": "Run",
+    "Python.code (12).executor": "Run",
     "Python.code (3).executor": "Run",
     "Python.code (4).executor": "Run",
     "Python.code (6).executor": "Run",
+    "Python.code (7).executor": "Run",
+    "Python.code (8).executor": "Run",
+    "Python.code (9).executor": "Run",
     "Python.code.executor": "Run",
     "Python.ex4_3.executor": "Run",
     "Python.exercise.executor": "Run",
@@ -45,17 +55,19 @@
     "Python.telebot.executor": "Run",
     "Python.telegram_bot_leva.executor": "Run",
     "Python.try_agane.executor": "Run",
+    "Python.tryy.executor": "Run",
     "Python.tryyy.executor": "Run",
+    "Python.башка_из_картошки.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/User2112/PycharmProjects/practice",
+    "last_opened_file_path": "C:/Users/User2112/Downloads",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User2112\PycharmProjects\practice" />
       <recent name="C:\Users\User2112\Downloads" />
+      <recent name="C:\Users\User2112\PycharmProjects\practice" />
       <recent name="C:\Users" />
       <recent name="C:\Users\User2112\PycharmProjects" />
     </key>
